@@ -1,1 +1,88 @@
-// TODO
+.bannerImage {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.postHeader {
+  margin-top: 5rem;
+
+  > h1 {
+    font-size: 3rem;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+
+  > .postInfo {
+    display: flex;
+    align-items: center;
+
+    margin-top: 1.5rem;
+    color: var(--info-color);
+
+    > div {
+      display: flex;
+      align-items: center;
+
+      & + div {
+        margin-left: 1.625rem;
+      }
+
+      &:first-child > span {
+        text-transform: capitalize;
+      }
+
+      > span {
+        font-size: 0.875rem;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}
+
+.postContent {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+
+  > div {
+    > h2 {
+      margin: 4rem 0;
+      font-size: 2.25rem;
+      color: var(--heading-color);
+    }
+
+    > div {
+      font-size: 1.125rem;
+      color: var(--body-color);
+      line-height: 1.4rem;
+
+      > p {
+        margin-top: 1rem;
+      }
+
+      > pre {
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background: rgba(0,0,0,.2);
+        margin-top: 1rem;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      > ul {
+        margin-top: 1rem;
+      }
+
+      a {
+        color: var(--highlight-color);
+
+        transition: filter 200ms ease-out;
+
+        &:hover {
+          filter: brightness(0.9);
+        }
+      }
+    }
+  }
+}

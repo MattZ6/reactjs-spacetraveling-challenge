@@ -1,1 +1,13 @@
-// TODO
+.header {
+  background: var(--background-color);
+  // background: rgba(var(--background-color), 0.9);
+  // position: sticky;
+  // top: 0;
+
+  > div {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2.5rem 1rem;
+  }
+}
