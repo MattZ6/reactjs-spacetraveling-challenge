@@ -17,6 +17,12 @@ export default class CustomDocument extends Document {
         <body>
           <Main />
           <NextScript />
+
+          <script
+            async
+            defer
+            src="https://static.cdn.prismic.io/prismic.js?new=true&repo=spacetravellers"
+          />
         </body>
       </Html>
     );
