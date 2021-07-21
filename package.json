@@ -1,7 +1,9 @@
 {
   "name": "spacetravelling",
+  "description": "🔥 Código de resolução do desafio de criação de um projeto do zero para a trilha de React JS — Ignite",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "author": {
     "name": "Matheus Felipe Zanin",
     "email": "matt_z6@hotmail.com",
