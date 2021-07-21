@@ -93,7 +93,7 @@ export default function Post({
   return (
     <>
       <Head>
-        <title>{post?.data?.title ?? 'Carregando...'} — spacetravelling </title>
+        <title>{post?.data?.title ?? 'Carregando...'} — spacetraveling </title>
       </Head>
 
       <Header />

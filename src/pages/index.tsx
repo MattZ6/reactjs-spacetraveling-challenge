@@ -61,7 +61,7 @@ export default function Home({
   return (
     <>
       <Head>
-        <title>Home — spacetravelling </title>
+        <title>Home — spacetraveling </title>
       </Head>
 
       <Header />

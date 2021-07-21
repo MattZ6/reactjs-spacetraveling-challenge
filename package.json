@@ -1,5 +1,5 @@
 {
-  "name": "spacetravelling",
+  "name": "spacetraveling",
   "description": "🔥 Código de resolução do desafio de criação de um projeto do zero para a trilha de React JS — Ignite",
   "version": "0.0.0",
   "private": true,
@@ -9,8 +9,8 @@
     "email": "matt_z6@hotmail.com",
     "url": "https://github.com/MattZ6"
   },
-  "repository": "https://github.com/MattZ6/reactjs-spacetravelling-challenge",
-  "bugs": "https://github.com/MattZ6/reactjs-spacetravelling-challenge/issues",
+  "repository": "https://github.com/MattZ6/reactjs-spacetraveling-challenge",
+  "bugs": "https://github.com/MattZ6/reactjs-spacetraveling-challenge/issues",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
